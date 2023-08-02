@@ -1,0 +1,22 @@
+/// @description 저장
+file_text_write_real(saveFile,date_get_year(date_current_datetime()))
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,date_get_month(date_current_datetime()))
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,date_get_day(date_current_datetime()))
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,date_get_hour(date_current_datetime()))
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,date_get_minute(date_current_datetime()))
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,global.score)
+file_text_writeln(saveFile)
+file_text_write_real(saveFile,global.survivedTime)
+file_text_writeln(saveFile)
+file_text_write_string(saveFile,"2.00")
+file_text_writeln(saveFile)
+file_text_close(saveFile)
+obj_save_record_button.canSave=false
+notifColor=c_lime
+saveNotif="저장됨!"
+alarm[2]=70

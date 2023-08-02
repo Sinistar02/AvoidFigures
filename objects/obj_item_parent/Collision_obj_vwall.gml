@@ -1,0 +1,2 @@
+reflectAngle=360-direction
+direction=reflectAngle

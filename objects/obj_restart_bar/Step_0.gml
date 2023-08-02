@@ -1,0 +1,1 @@
+image_xscale=obj_restart.restart*0.017
