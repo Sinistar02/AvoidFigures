@@ -1,4 +1,4 @@
-itemSpawn=irandom_range(2400,3000)//40~50초마다 아이템 무조건 생성
+itemSpawn=irandom_range(1800,2100)//30~35초마다 아이템 무조건 생성
 itemSpawnWhenFatal=1
 if(global.gamemode=="30s normal")
 	instance_destroy(self)
@@ -34,7 +34,7 @@ function selectItem(m) {
 		} else if(itemSelector<=9){// 7/20 확률로 체력 상승 아이템
 			instance_create_depth(272,256,0,obj_item_lifeup)
 		} else if(itemSelector<=12){// 3/20 확률로 일시정지 아이템
-			instance_create_depth(272,256,0,obj_item_lifeup)
+			instance_create_depth(272,256,0,obj_item_pause)
 		} else {// 7/20 확률로 실드 아이템
 			instance_create_depth(272,256,0,obj_item_shield)
 		}

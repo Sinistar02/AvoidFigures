@@ -13,7 +13,7 @@ function getTime(m){
 		return time % 60
 }
 
-if(room==game_over){
+if(room==game_over or room==game_30s_survived){
 	switch(x){
 		case 656:
 			image_index=digitMap(10,getTime("minute"))

@@ -94,4 +94,3 @@ if(hp<=0){
 x+=wdir*wspd
 y+=hdir*hspd
 image_index=motionImage
-

@@ -8,7 +8,7 @@ if(room==title_screen) {
 		audio_play_sound(sd_30sec,100,false)
 	else
 		alarm[0]=1
-} else if(room==game_over){
+} else if(room==game_over or room==game_30s_survived){
 	audio_stop_all()
 	audio_play_sound(sd_game_over,100,true)
 }

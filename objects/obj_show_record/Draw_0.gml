@@ -2,6 +2,7 @@ if(loading==true){
 	draw_set_font(galmoori)
 	draw_text(192,256,"기록을 불러오는 중입니다...")
 } else {
+	//기록 보이기
 	draw_set_font(galmooriSmall)
 	var line=0;
 	draw_text(44+80,67,"날짜")

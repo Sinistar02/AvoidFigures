@@ -1,6 +1,6 @@
 if(timer==0){
 	if(global.gamemode=="30s normal")
-		room_goto(game_over)
+		room_goto(game_30s_survived)
 	else
 		obj_player.hp=0
 } else if(obj_player.hp>0){

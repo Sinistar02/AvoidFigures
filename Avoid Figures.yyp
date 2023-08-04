@@ -220,6 +220,7 @@
     {"id":{"name":"spr_version","path":"sprites/spr_version/spr_version.yy",},},
     {"id":{"name":"obj_BGM","path":"objects/obj_BGM/obj_BGM.yy",},},
     {"id":{"name":"obj_screen_cover","path":"objects/obj_screen_cover/obj_screen_cover.yy",},},
+    {"id":{"name":"game_30s_survived","path":"rooms/game_30s_survived/game_30s_survived.yy",},},
     {"id":{"name":"obj_mine_circle","path":"objects/obj_mine_circle/obj_mine_circle.yy",},},
     {"id":{"name":"spr_credit_screen","path":"sprites/spr_credit_screen/spr_credit_screen.yy",},},
     {"id":{"name":"sd_laser","path":"sounds/sd_laser/sd_laser.yy",},},
@@ -243,6 +244,7 @@
     {"roomId":{"name":"how_to_play","path":"rooms/how_to_play/how_to_play.yy",},},
     {"roomId":{"name":"game_mode","path":"rooms/game_mode/game_mode.yy",},},
     {"roomId":{"name":"record_room","path":"rooms/record_room/record_room.yy",},},
+    {"roomId":{"name":"game_30s_survived","path":"rooms/game_30s_survived/game_30s_survived.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

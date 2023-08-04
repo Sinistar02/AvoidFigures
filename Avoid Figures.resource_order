@@ -181,6 +181,7 @@
     {"name":"spr_version","order":10,"path":"sprites/spr_version/spr_version.yy",},
     {"name":"obj_BGM","order":9,"path":"objects/obj_BGM/obj_BGM.yy",},
     {"name":"obj_screen_cover","order":7,"path":"objects/obj_screen_cover/obj_screen_cover.yy",},
+    {"name":"game_30s_survived","order":8,"path":"rooms/game_30s_survived/game_30s_survived.yy",},
     {"name":"obj_mine_circle","order":3,"path":"objects/obj_mine_circle/obj_mine_circle.yy",},
     {"name":"spr_credit_screen","order":7,"path":"sprites/spr_credit_screen/spr_credit_screen.yy",},
     {"name":"sd_laser","order":6,"path":"sounds/sd_laser/sd_laser.yy",},

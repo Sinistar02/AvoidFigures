@@ -7,7 +7,10 @@ if(global.gamemode=="normal"){
 } else if(global.gamemode=="30s normal"){
 	timeline_index=tl_enemy_spawn_30s_normal
 	hp=1
-}
+}/* else if(global.gamemode=="30s hard"){
+	timeline_index=tl_enemy_spawn_30s_hard
+	hp=1
+} */
 timeline_running=true
 
 depth=7
@@ -24,6 +27,7 @@ blinked=false//blinked가 true이면 눈을 감음
 restart=0
 global.score=0
 
+//게임오버 되었을 시 취할 행동
 function gameoverMotion() {
 	hp=0
 	obj_graze.graze=0

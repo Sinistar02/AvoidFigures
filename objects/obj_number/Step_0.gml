@@ -52,7 +52,7 @@ if(room==game_room){
 				break;
 		}
 	}
-} else if(room==game_over){
+} else if(room==game_over or room==game_30s_survived){
 	switch(x){
 		case 704:
 			image_index=digitMap(1,global.score)
