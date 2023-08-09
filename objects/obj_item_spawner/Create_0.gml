@@ -1,6 +1,6 @@
 itemSpawn=irandom_range(1800,2100)//30~35초마다 아이템 무조건 생성
 itemSpawnWhenFatal=1
-if(global.gamemode=="30s normal")
+if(global.gamemode=="30s normal" or global.gamemode=="30s hard")
 	instance_destroy(self)
 
 //아이템 결정 알고리즘.(보다시피 더럽다)

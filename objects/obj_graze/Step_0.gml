@@ -29,7 +29,7 @@ if(graze>=grazeBonus){
 	} else if(global.gamemode=="hard"){
 		obj_timer.timer+=600//10초 증가
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:0,bonusColor:"green"})
-	} else if(global.gamemode=="30s normal"){
+	} else if(global.gamemode=="30s normal" or global.gamemode=="30s hard" or global.gamemode=="practice"){
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:2,bonusColor:"green"})
 	}
 	audio_play_sound(sd_graze_bonus,9,false)

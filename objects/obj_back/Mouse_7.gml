@@ -1,0 +1,5 @@
+audio_play_sound(sd_button,0,false)
+if(room==practice_room)
+	room_goto(game_mode)
+else if(room==game_mode)
+	room_goto(title_screen)

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sd_spear_square_crash",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "SFX",
+    "path": "audiogroups/SFX",
   },
   "bitDepth": 1,
   "bitRate": 128,

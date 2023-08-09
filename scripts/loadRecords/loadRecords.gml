@@ -17,7 +17,6 @@ function loadRecords(gm){
 		loadedSaveFile[i]=recordLine;
 		i++;
 	}
-	show_debug_message("before "+string(i))
 	//한 페이지 당 16줄
 	obj_show_record.page=floor(i/17)
 	//기록이 16의 배수가 아니라면 나머지 빈 공간을 0으로 채운다
@@ -29,7 +28,6 @@ function loadRecords(gm){
 		loadedSaveFile[i]=[0,0,0,0,0,0,0,"EMPTY"];
 		i++;
 	}
-	show_debug_message("after "+string(i))
 	file_text_close(saveFile);
 	return loadedSaveFile;
 }

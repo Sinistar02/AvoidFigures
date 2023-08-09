@@ -3,7 +3,6 @@ currentPage=0
 mode=0
 loading=true
 alarm[0]=1
-show_debug_message(page)
 
 function getTime(m,i){
 	var time=loadedSaveFile[i][6]/60;

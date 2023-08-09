@@ -12,7 +12,7 @@ function getTime(m){
 	else if(m=="second")
 		return time % 60
 }
-if(room==game_room){
+if(room==game_room or room==game_room_for_practice){
 	if(y==112){
 		switch(x){
 			case 688:

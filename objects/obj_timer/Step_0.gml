@@ -3,7 +3,7 @@ if(timer==0){
 		room_goto(game_30s_survived)
 	else
 		obj_player.hp=0
-} else if(obj_player.hp>0){
+} else if(obj_player.hp>0 and global.gamemode!="practice"){
 	timer--;
 	global.survivedTime++;
 	if(timer<=600 and timer mod 60==0)

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sd_button_hover",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "SFX",
+    "path": "audiogroups/SFX",
   },
   "bitDepth": 1,
   "bitRate": 128,

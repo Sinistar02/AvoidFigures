@@ -6,12 +6,12 @@ graze=0
 grazing=false
 grazePlusTimer=0
 makeSound=true
-if(global.gamemode=="normal"){
+if(global.gamemode=="normal" or global.gamemode=="practice"){
 	grazeBonus=84
 	alarm[0]=6600 //84(초기)->180(110초 후)->248(200초 후)
 } else if(global.gamemode=="hard"){
 	grazeBonus=248
-} else if(global.gamemode=="30s normal"){
+} else if(global.gamemode=="30s normal" or global.gamemode=="30s hard"){
 	grazeBonus=60
 }
 

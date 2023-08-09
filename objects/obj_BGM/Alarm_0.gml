@@ -14,6 +14,6 @@ if(global.gamemode=="normal"){
 		songName=sd_hard_2
 }
 	
-var songLength=audio_sound_length(sd_normal_1)*60+240
+var songLength=audio_sound_length(songName)*60+240
 audio_play_sound(songName,100,false)
 alarm[0]=songLength

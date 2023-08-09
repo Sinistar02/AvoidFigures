@@ -83,7 +83,7 @@ if(hp<=0){
 		surviveFrame=0
 	}
 	//1000점마다 hp 1 상승
-	if(scoreBonus>=1000 and global.gamemode!="30s normal"){
+	if(scoreBonus>=1000 and (global.gamemode!="30s normal" or global.gamemode!="30s hard")){
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:1,bonusColor:"orange"})
 		audio_play_sound(sd_lifeup,1,false)
 		hp++;

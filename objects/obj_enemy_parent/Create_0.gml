@@ -5,7 +5,7 @@ function hit(){
 		audio_play_sound(sd_hit,10,false)
 		with(obj_player){
 			hp--;
-			invincibility=85
+			invincibility=125
 			surviveFrame=0
 			if(hp>0)
 				stunFrame=30

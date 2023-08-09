@@ -16,6 +16,19 @@ if(global.gamemode="30s normal"){//30초 모드에서
 		textToShow=4
 	else
 		textToShow=irandom_range(5,7)
+} else if(global.gamemode="30s hard"){
+	if(global.score>=3500)//3500점 이상 획득
+		textToShow=3
+	else if(global.score>=2500)//2500점 이상 획득
+		textToShow=2
+	else if(global.survivedTime>=1800)//30초 생존
+		textToShow=1
+	else if(global.score>=1500)//1500점 이상 획득
+		textToShow=0
+	else if(global.survivedTime<=180)//3초 이하 생존
+		textToShow=4
+	else
+		textToShow=irandom_range(5,7)
 } else {
 	if(global.survivedTime>=10800)//3분 이상 생존
 		textToShow=0
@@ -53,4 +66,14 @@ if(global.gamemode=="normal"){
 	"다음엔 점수를 더 많이 벌어보자",
 	"30초... 생존 가능해?",
 	"재도전 오직 재도전뿐이다"]
+} else if(global.gamemode=="30s hard"){
+	balloonColor=c_red
+	text=["살아남았다...!!!",
+	"이렇게나 도형이 많은데 1500점은 기본이지",
+	"2500점? 나쁘지 않아",
+	"내가 누구? \"장막 포인트 애호가\"",
+	"이게...이게 사람이 할 난이도임??",
+	"점수고 뭐고 살기 바쁘다",
+	"dkslwkat-",//아니잠ㅅ-
+	"아무리 터진다 해도 나는 포기하지 않을 거야"]
 }

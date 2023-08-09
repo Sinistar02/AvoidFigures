@@ -7,15 +7,16 @@ if(global.gamemode=="normal"){
 } else if(global.gamemode=="30s normal"){
 	timeline_index=tl_enemy_spawn_30s_normal
 	hp=1
-}/* else if(global.gamemode=="30s hard"){
+} else if(global.gamemode=="30s hard"){
 	timeline_index=tl_enemy_spawn_30s_hard
 	hp=1
-} */
+} else if(global.gamemode=="practice"){
+	hp=99999
+}
 timeline_running=true
 
 depth=7
 gameover=false
-//lifeup=0
 invincibility=0
 frame=0
 surviveFrame=0
