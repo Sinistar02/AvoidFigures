@@ -1,4 +1,4 @@
-ini_open("option.txt")
+ini_open("option.ini")
 volume=ini_read_real("option","sound",2)
 image_index = 2*volume
 ini_close()

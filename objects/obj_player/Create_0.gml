@@ -1,3 +1,4 @@
+//난이도별 타임라인 작동, 체력 결정
 if(global.gamemode=="normal"){
 	timeline_index=tl_enemy_spawn
 	hp=3
@@ -25,7 +26,6 @@ scoreBonus=0
 motionImage=0
 blinkFrame=irandom_range(110,180)
 blinked=false//blinked가 true이면 눈을 감음
-restart=0
 global.score=0
 
 //게임오버 되었을 시 취할 행동

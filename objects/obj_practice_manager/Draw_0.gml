@@ -3,4 +3,7 @@ if(room==practice_room){
 	draw_text_ext(464,252,description[0],28,280)
 	draw_set_font(galmoori)
 	draw_text_ext(40,264,description[1],22,384)
+} else {
+	draw_set_font(galmoori)
+	draw_text_ext(552,192,exitDesc,22,200)
 }

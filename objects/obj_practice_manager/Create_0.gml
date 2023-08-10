@@ -22,4 +22,6 @@ if(room==practice_room) {
 	}
 	if(global.enemySelectList[6]==true)
 		instance_create_depth(0,0,0,obj_laser_spawner,{difficulty:0})
+	exitDesc=""
+	alarm[0]=1
 }

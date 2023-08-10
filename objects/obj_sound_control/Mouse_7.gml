@@ -2,7 +2,7 @@ if(volume==0)
 	volume=2
 else
 	volume--;
-ini_open("option.txt")
+ini_open("option.ini")
 ini_write_real("option","sound",volume)
 image_index = 2*volume
 ini_close()

@@ -22,9 +22,9 @@ if(global.gamemode="30s normal"){//30초 모드에서
 	else if(global.score>=2500)//2500점 이상 획득
 		textToShow=2
 	else if(global.survivedTime>=1800)//30초 생존
-		textToShow=1
-	else if(global.score>=1500)//1500점 이상 획득
 		textToShow=0
+	else if(global.score>=1500)//1500점 이상 획득
+		textToShow=1
 	else if(global.survivedTime<=180)//3초 이하 생존
 		textToShow=4
 	else

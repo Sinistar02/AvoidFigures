@@ -6,3 +6,4 @@ else if(x<525)
 	assignedID=2
 else
 	assignedID=3
+selectedEnemyID=assignedID+obj_practice_manager.currentPage*4

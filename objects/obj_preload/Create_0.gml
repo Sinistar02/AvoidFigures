@@ -7,7 +7,6 @@ global.debug=false
 global.gamemode="undefined"
 global.savefile=["norm records.txt","hard records.txt","30n records.txt","30h records.txt"]
 randomize()
-alarm[0]=3
 date_set_timezone(timezone_local)
 //첫 실행 시 필요한 파일 생성
 for(var i=0;i<4;i++){
@@ -17,8 +16,17 @@ for(var i=0;i<4;i++){
 	}
 }
 ini_open("option.ini")
+//option.ini 생성
 if(!ini_section_exists("option")){
 	ini_write_real("option","sound",2)
 	ini_write_real("option","fullscreen",0)
+}
+//option.ini 설정 불러오기
+if(ini_read_real("option","fullscreen",0)==1){
+	window_set_fullscreen(true)
+	alarm[0]=12
+} else {
+	window_set_fullscreen(false)
+	alarm[0]=3
 }
 ini_close()
