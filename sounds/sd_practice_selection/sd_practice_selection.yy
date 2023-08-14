@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 171.5461,
+  "duration": 197.67467,
   "parent": {
     "name": "BGM",
     "path": "folders/Sounds/BGM.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sd_practice_selection.mp3",
+  "soundFile": "sd_practice_selection.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -20,7 +20,11 @@ ini_open("option.ini")
 if(!ini_section_exists("option")){
 	ini_write_real("option","sound",2)
 	ini_write_real("option","fullscreen",0)
+	ini_write_real("option","language",1)
 }
+if(!ini_key_exists("option","language"))
+	ini_write_real("option","language",1)
+global.language=ini_read_real("option","language",1) //1:한국어, 2:English
 //option.ini 설정 불러오기
 if(ini_read_real("option","fullscreen",0)==1){
 	window_set_fullscreen(true)

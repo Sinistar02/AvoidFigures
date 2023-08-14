@@ -10,9 +10,12 @@ if(room==title_screen or room==game_mode) {
 		audio_play_sound(sd_30sec,100,false)
 	else
 		alarm[0]=1
-} else if(room==game_over or room==game_30s_survived){
+} else if(room==game_over){
 	audio_stop_all()
 	audio_play_sound(sd_game_over,100,true)
+} else if(room==game_30s_survived) {
+	audio_stop_all()
+	audio_play_sound(sd_survived,100,true)
 } else if(room==practice_room){
 	if(!audio_is_playing(sd_practice_selection)) {
 		audio_stop_all()
@@ -20,7 +23,5 @@ if(room==title_screen or room==game_mode) {
 	}
 	audio_play_sound(sd_button,99,false)
 } else if(room==game_room_for_practice) {
-	//audio_stop_all()
-	//audio_play_sound(sd_practice_game,100,true)
 	audio_play_sound(sd_button,99,false)
 }

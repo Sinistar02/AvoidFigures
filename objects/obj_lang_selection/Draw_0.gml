@@ -1,0 +1,5 @@
+draw_set_font(galmooriSmall)
+if(global.language==1)
+	draw_text(664,392,"한국어")
+else if(global.language==2)
+	draw_text(664,392,"English")
