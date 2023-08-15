@@ -1,0 +1,14 @@
+Bouncy Ball
+If it touches the wall, it bounces. A basic, simple figure. While it is easy that getting bonus points from it, beware its occasional rush mode.
+Snake Square
+While it moves to the left constantly, it randomly changes its vertical position. Getting near it is never a good choice. Also, do not trust the randomness of the computer.
+Spin Ball
+Going right, spinning a lot. It's hard to avoid even if I notice its existance. It would go diagonally after a while.
+Mine Ball
+A number of this spread all over the field, and explode after some time. It's not that hard to avoid, but its explosion remains long. It gives many points.
+Spear Square
+Charge into the upper wall from the bottom really fast. It's impossible to avoid after its charging. Keep an eye on the bottom of the field. Its cooldown decreases after a while.
+Cannon Square
+Launches a dangerous Cannonball from both sides. Cannonball gives me many points. Since Cannonball flies straight, it's fairly easy to avoid.
+Laser Square
+Shoots a laser. REALLY long laser. The laser is straight, so it really doesn't matter much. Another my point supplement.
