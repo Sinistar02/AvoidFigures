@@ -1,0 +1,5 @@
+draw_sprite(spr_mode_title,global.language-1,375,15)
+for(var i=0;i<3;i++)
+	draw_sprite(spr_mode_screen,(global.language-1)*5+i,138+245*i,155)
+for(i=0;i<2;i++)
+	draw_sprite(spr_mode_screen,(global.language-1)*5+i+3,138+245*i,370)

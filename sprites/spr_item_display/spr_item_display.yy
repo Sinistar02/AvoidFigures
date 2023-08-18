@@ -31,8 +31,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "particle",
+    "path": "folders/Sprites/particle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

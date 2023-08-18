@@ -12,3 +12,5 @@ Cannon Square
 Launches a dangerous Cannonball from both sides. Cannonball gives me many points. Since Cannonball flies straight, it's fairly easy to avoid.
 Laser Square
 Shoots a laser. REALLY long laser. The laser is straight, so it really doesn't matter much. Another my point supplement.
+Slow Crystal
+Generates a blue square that makes me slower. In addition, it makes a noisy sound if someone doesn't touch it. Touch and break it immediately.

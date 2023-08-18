@@ -2,8 +2,10 @@ if(keyboard_check(vk_f3)==true)
 	global.debug=true
 
 if(room==title_screen or room==how_to_play){
-	audio_play_sound(sd_button,0,false)
-	room_goto(game_mode)
+	if(!instance_exists(obj_copyright_screen) and !instance_exists(obj_credit)) {
+		audio_play_sound(sd_button,0,false)
+		room_goto(game_mode)
+	}
 } else if(room==game_mode){
 	if(y<=230){
 		if(x<=249){

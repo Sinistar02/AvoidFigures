@@ -6,6 +6,6 @@ if(global.debug==true){
 	else
 		game_set_speed(60,gamespeed_fps)
 	
-	if(keyboard_check_pressed(vk_f1))
+	if(keyboard_check_pressed(vk_f5))
 		game_restart()
 }

@@ -1,2 +1,2 @@
-image_index=0
+event_inherited();
 depth=-2

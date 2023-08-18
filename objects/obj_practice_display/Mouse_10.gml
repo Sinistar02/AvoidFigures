@@ -1,5 +1,5 @@
 ///@desc 설명문
-if(selectedEnemyID<7)
+if(selectedEnemyID<8)
 	audio_play_sound(sd_button_hover,0,false)
 //미리 만들어둔 설명문 로드
 if(global.language==1)

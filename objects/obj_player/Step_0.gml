@@ -11,6 +11,12 @@ if(wdir!=0 and hdir!=0){//대각이동 속력 조정
 	hspd*=0.75
 }
 
+//특정 상황에서 속도 감소
+if(place_meeting(x,y,obj_slcr_range)){
+	wspd*=0.5
+	hspd*=0.5
+}
+
 //모션
 if(wdir==1 or hdir==1)
 	motionImage=1

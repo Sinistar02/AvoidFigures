@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sd_hard_3",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "BGM",
+    "path": "audiogroups/BGM",
   },
   "bitDepth": 1,
   "bitRate": 128,
