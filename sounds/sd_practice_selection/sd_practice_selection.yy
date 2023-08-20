@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 197.67467,
+  "duration": 192.00526,
   "parent": {
     "name": "BGM",
     "path": "folders/Sounds/BGM.yy",

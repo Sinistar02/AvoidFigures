@@ -1,5 +1,5 @@
 assignedEnemyID=assignedID+obj_practice_manager.currentPage*4
-if(array_length(global.enemySelectList)>assignedEnemyID){
+if(array_length(global.enemySelectList)-2>assignedEnemyID){
 	if(global.enemySelectList[assignedEnemyID]==true){
 		image_index=0
 	} else {

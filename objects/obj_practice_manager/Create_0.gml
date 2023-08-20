@@ -1,7 +1,7 @@
 if(room==practice_room) {
 	//튕기는공,스네이크네모,회전구,지뢰,창,대포,레이저
-	global.enemySelectList=[true,false,false,false,false,false,false,false]
-	maxPage=1
+	global.enemySelectList=[true,false,false,false,false,false,false,false,true,true]
+	maxPage=2
 	currentPage=0
 	description=["",""]//적 이름, 설명
 } else {
