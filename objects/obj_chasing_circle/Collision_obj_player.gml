@@ -3,3 +3,11 @@ alarm_set(1,-1)
 image_index=0
 originalSpeed=0
 alarm[2]=1
+audio_play_sound(sd_hit,10,false)
+with(obj_player){
+	hp--;
+	invincibility=125
+	surviveFrame=0
+	if(hp>0)
+		stunFrame=30
+}

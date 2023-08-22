@@ -10,6 +10,4 @@ function getTime(m,i){
 		return floor(time / 60)
 	else if(m=="second")
 		return time % 60
-	else if(m=="rest")
-		return (time-(time%60))*0.016
 }

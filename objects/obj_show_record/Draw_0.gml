@@ -23,7 +23,7 @@ if(loading==true){
 		draw_text_ext(254,106+line*24,string(loadedSaveFile[i][3])+":"+string(loadedSaveFile[i][4]),2048,16)
 		draw_text_ext(324,106+line*24,loadedSaveFile[i][7],128,16)
 		draw_text_ext(394,106+line*24,string(loadedSaveFile[i][5]),1024,16)
-		draw_text_ext(484,106+line*24,string(getTime("minute",i))+":"+string(getTime("second",i)+getTime("rest",i)),1024,16)
+		draw_text_ext(484,106+line*24,string(getTime("minute",i))+":"+string(getTime("second",i)),1024,16)
 		line++;
 	}
 }

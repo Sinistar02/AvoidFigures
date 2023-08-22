@@ -1,6 +1,6 @@
 if(room==practice_room) {
 	//튕기는공,스네이크네모,회전구,지뢰,창,대포,레이저
-	global.enemySelectList=[true,false,false,false,false,false,false,false,true,true]
+	global.enemySelectList=[true,false,false,false,false,false,false,false,false,true]
 	maxPage=2
 	currentPage=0
 	description=["",""]//적 이름, 설명
@@ -24,6 +24,8 @@ if(room==practice_room) {
 		instance_create_depth(0,0,0,obj_laser_spawner,{difficulty:0})
 	if(global.enemySelectList[7]==true)
 		instance_create_depth(0,0,0,obj_slcr_spawner,{difficulty:1})
+	if(global.enemySelectList[8]==true)
+		instance_create_depth(0,0,0,obj_cc_spawner,{difficulty:0})
 	exitDesc=""
 	alarm[0]=1
 }

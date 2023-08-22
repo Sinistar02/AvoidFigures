@@ -1,7 +1,7 @@
 audio_group_load(BGM)
 audio_group_load(SFX)
 audio_group_set_gain(BGM,1,0)
-audio_group_set_gain(SFX,0.4,0)
+audio_group_set_gain(SFX,0.6,0)
 global.score=0
 global.debug=false
 global.gamemode="undefined"
