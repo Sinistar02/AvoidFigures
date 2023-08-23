@@ -5,4 +5,6 @@ if(cycle>0) {
 	audio_play_sound(sd_chase_stop,2,false)
 	cycle--;
 	alarm[1]=30-difficulty*10
+} else {
+	phase=1
 }

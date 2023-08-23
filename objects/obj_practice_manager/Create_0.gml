@@ -26,6 +26,8 @@ if(room==practice_room) {
 		instance_create_depth(0,0,0,obj_slcr_spawner,{difficulty:1})
 	if(global.enemySelectList[8]==true)
 		instance_create_depth(0,0,0,obj_cc_spawner,{difficulty:0})
+	if(global.enemySelectList[9]==true)
+		instance_create_depth(0,0,0,obj_snci_spawner)
 	exitDesc=""
 	alarm[0]=1
 }

@@ -9,7 +9,14 @@ if(blendColor==true){
 }
 speed=originalSpeed*speedMultiplier
 if(image_index==0)
-	graze(1)
-else {
 	graze(2)
+else {
+	graze(4)
 }
+
+if(phase==1 and x>527){
+	alarm[2]=1
+	phase=2
+}
+
+hit();

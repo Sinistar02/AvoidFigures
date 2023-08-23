@@ -19,3 +19,15 @@ function graze(n){
 			audio_play_sound(sd_graze,0,false)
 	}
 }
+
+function pause(lv){
+	if(lv==0){
+		speedMultiplier=0
+	} else if(lv==1) {
+		if(speedMultiplier==0)
+			speedMultiplier=0.5
+	} else {
+		if(speedMultiplier<=0.5)
+			speedMultiplier=1
+	}
+}
