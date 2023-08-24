@@ -60,9 +60,9 @@ if(stunFrame>0){
 }
 
 //벽 판정
-if(place_meeting(x+6*wdir,y,obj_hwall))
+if(place_meeting(x+7*wdir,y,obj_hwall))
 	wspd=0
-if(place_meeting(x,y+6*hdir,obj_vwall))
+if(place_meeting(x,y+7*hdir,obj_vwall))
 	hspd=0
 
 //게임오버

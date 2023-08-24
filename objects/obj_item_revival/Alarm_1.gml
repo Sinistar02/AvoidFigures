@@ -7,8 +7,10 @@ if(animIter<9){
 	animIter++;
 	alarm[1]=1
 } else {
-	if(room==game_room_for_practice)
+	if(room==game_room_for_practice) {
 		instance_destroy(self)
-	x=736
-	y=192
+  } else {
+    x=736
+    y=192
+  }
 }
