@@ -30,10 +30,10 @@ if(global.gamemode="30s normal"){//30초 모드에서
 	else
 		textToShow=irandom_range(5,7)
 } else {
-	if(global.survivedTime>=10800)//3분 이상 생존
-		textToShow=0
-	else if(global.score>=10000)//10000점 이상 획득
+	if(global.score>=10000)//10000점 이상 획득
 		textToShow=1
+	else if(global.survivedTime>=10800)//3분 이상 생존
+		textToShow=0
 	else if(global.survivedTime<=420)//7초 이하 생존
 		textToShow=2
 	else

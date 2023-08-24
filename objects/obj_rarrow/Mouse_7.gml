@@ -23,4 +23,11 @@ if(room==record_room){
 		else
 			currentPage++;
 	}
+} else if(room==achievement_room){
+	with(obj_achievement_manager){
+		if(currentPage < maxPage){
+			audio_play_sound(sd_button,0,false)
+			currentPage++;
+		}
+	}
 }

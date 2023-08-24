@@ -1,10 +1,3 @@
-function digitMap(n,r) {
-	var i;
-	for(i=1;i<n;i*=10)
-		r/=10
-	return r % 10;
-}
-
 function getTime(m){
 	var time=obj_timer.timer/60;
 	if(m=="minute")
@@ -12,6 +5,7 @@ function getTime(m){
 	else if(m=="second")
 		return time % 60
 }
+
 if(room==game_room or room==game_room_for_practice){
 	if(y==112){
 		switch(x){
@@ -72,5 +66,18 @@ if(room==game_room or room==game_room_for_practice){
 		case 544:
 			image_index=digitMap(100000,global.score)
 			break;
+	}
+} else if(room==achievement_room){
+	var progressPercent = floor(obj_progress_bar.progressPercent*100)
+	switch(x){
+		case 624:
+		image_index=digitMap(100,progressPercent)
+		break;
+		case 656:
+		image_index=digitMap(10,progressPercent)
+		break;
+		case 688:
+		image_index=digitMap(1,progressPercent)
+		break;
 	}
 }

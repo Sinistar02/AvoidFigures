@@ -21,6 +21,7 @@
     {"name":"inst_6A276B45","path":"rooms/game_30s_survived/game_30s_survived.yy",},
     {"name":"inst_52365B6D","path":"rooms/game_30s_survived/game_30s_survived.yy",},
     {"name":"inst_476E9951","path":"rooms/game_30s_survived/game_30s_survived.yy",},
+    {"name":"inst_3E6F2CB0","path":"rooms/game_30s_survived/game_30s_survived.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -45,6 +46,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A276B45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_number_slim","path":"objects/obj_number_slim/obj_number_slim.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52365B6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_score_cover","path":"objects/obj_score_cover/obj_score_cover.yy",},"properties":[],"rotation":0.0,"scaleX":5.75,"scaleY":1.0,"x":368.0,"y":176.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_476E9951","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_score_cover","path":"objects/obj_score_cover/obj_score_cover.yy",},"properties":[],"rotation":0.0,"scaleX":3.5,"scaleY":1.0,"x":512.0,"y":240.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E6F2CB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sprinkle_gen","path":"objects/obj_sprinkle_gen/obj_sprinkle_gen.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":48,"TileCompressedData":[
 -551,-2147483648,10,8,9,26,27,90,91,92,93,6,7,-38,-2147483648,10,18,19,36,37,100,101,102,103,16,17,-38,-2147483648,10,40,41,42,43,44,45,46,47,48,49,-38,-2147483648,10,50,51,52,53,54,55,

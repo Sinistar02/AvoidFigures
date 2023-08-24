@@ -26,7 +26,13 @@ scoreBonus=0
 motionImage=0
 blinkFrame=irandom_range(110,180)
 blinked=false//blinked가 true이면 눈을 감음
+nomiss=true//한 번도 맞지 않았는지의 여부
 global.score=0
+//이펙트
+if(global.debug==true)
+	alarm[3]=1
+else
+	alarm[2]=2
 
 //게임오버 되었을 시 취할 행동
 function gameoverMotion() {

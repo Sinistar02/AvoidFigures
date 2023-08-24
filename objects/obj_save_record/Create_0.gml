@@ -11,8 +11,12 @@ if(global.language==1)
 else
 	saveNotif="Saving..."
 notifColor = c_white
-if(saveFile!=-1){
-	alarm[0]=1
+if(global.debug==false){
+	if(saveFile!=-1){
+		alarm[0]=1
+	} else {
+		alarm[1]=1
+	}
 } else {
 	alarm[1]=1
 }

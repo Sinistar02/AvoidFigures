@@ -1,4 +1,4 @@
-depth=0
+depth=-5
 animIter=0
 image_yscale=0
 if(bonusColor=="orange")

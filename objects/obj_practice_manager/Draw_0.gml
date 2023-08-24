@@ -7,4 +7,5 @@ if(room==practice_room){
 } else {
 	draw_set_font(galmoori)
 	draw_text_ext(552,192,exitDesc,22,180)
+	global.practiceTimer++;
 }
