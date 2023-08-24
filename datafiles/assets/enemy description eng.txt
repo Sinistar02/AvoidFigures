@@ -17,4 +17,4 @@ Generates a blue square that makes me slower. In addition, it makes a noisy soun
 Chasing Ball
 It chases me three times. It towards to the spot where I was right before it charges. Mind the timing, and dodge. Small movement would be enough; large movement brings risk.
 Sniper Ball
-?????
+Aim at me, and shoots itself really fast. It takes about 2~4 seconds to shoot. Watch the aim mark blinking in red and listen to the sound it makes.

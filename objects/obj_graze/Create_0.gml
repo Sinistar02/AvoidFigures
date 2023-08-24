@@ -5,6 +5,7 @@ depth=8
 graze=0
 grazing=false
 grazePlusTimer=0
+grazeCombo=0
 makeSound=true
 if(global.gamemode=="normal" or global.gamemode=="practice"){
 	grazeBonus=84

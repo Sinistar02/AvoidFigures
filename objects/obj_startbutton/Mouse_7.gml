@@ -15,10 +15,12 @@ if(room==title_screen or room==how_to_play){
 		} else {
 			global.gamemode="30s normal"
 		}
+		global.playCount++;
 		room_goto(game_room)
 	} else {
 		if(x<=249){
 			global.gamemode="30s hard"
+			global.playCount++;
 			room_goto(game_room)
 		} else if(x<=524){
 			global.gamemode="practice"
@@ -26,5 +28,6 @@ if(room==title_screen or room==how_to_play){
 		}
 	}	
 } else if(room==practice_room) {
+	global.playCount++;
 	room_goto(game_room_for_practice)
 }

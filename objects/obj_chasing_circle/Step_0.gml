@@ -19,4 +19,4 @@ if(phase==1 and x>527){
 	phase=2
 }
 
-hit();
+hit2();

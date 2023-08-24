@@ -5,6 +5,7 @@ audio_group_set_gain(SFX,0.6,0)
 global.score=0
 global.debug=false
 global.gamemode="undefined"
+global.practiceTimer=0
 global.savefile=["norm records.txt","hard records.txt","30n records.txt","30h records.txt"]
 randomize()
 date_set_timezone(timezone_local)
@@ -15,8 +16,35 @@ for(var i=0;i<4;i++){
 		file_text_close(createFile)
 	}
 }
-ini_open("option.ini")
+//진행도 기록
+if(!file_exists("achievement status.txt")){
+	createFile = file_text_open_write("achievement status.txt")
+	for(var i=0;i<30;i++){
+		file_text_write_real(createFile,0)
+		file_text_writeln(createFile)
+	}
+	file_text_close(createFile)
+}
+//플레이 횟수 기록
+if(!file_exists("play count.txt")){
+	createFile = file_text_open_write("play count.txt")
+	file_text_write_real(createFile,0)
+	file_text_close(createFile)
+}
+createFile = file_text_open_read("play count.txt")
+global.playCount = file_text_read_real(createFile)
+file_text_close(createFile)
+//죽은 횟수 기록
+if(!file_exists("death count.txt")){
+	createFile = file_text_open_write("death count.txt")
+	file_text_write_real(createFile,0)
+	file_text_close(createFile)
+}
+createFile = file_text_open_read("death count.txt")
+global.deathCount = file_text_read_real(createFile)
+file_text_close(createFile)
 //option.ini 생성
+ini_open("option.ini")
 if(!ini_section_exists("option")){
 	ini_write_real("option","sound",2)
 	ini_write_real("option","fullscreen",0)
@@ -31,6 +59,11 @@ if(ini_read_real("option","fullscreen",0)==1){
 	alarm[0]=12
 } else {
 	window_set_fullscreen(false)
+	if(ini_read_real("option","size",1)==1)
+		global.windowSize=[1532,1024]
+	else
+		global.windowSize=[766,512]
+	window_set_size(global.windowSize[0],global.windowSize[1])
 	alarm[0]=3
 }
 ini_close()

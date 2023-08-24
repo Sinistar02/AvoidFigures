@@ -1,0 +1,6 @@
+draw_set_halign(fa_middle)
+draw_set_valign(fa_top)
+draw_set_font(galmoori)
+draw_text_transformed_color(obj_player.x,obj_player.y+20,notification,0.5,0.5,0,color,color,color,color,1)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)

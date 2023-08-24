@@ -5,7 +5,6 @@ function loadRecords(gm){
 	var loadedSaveFile=[];
 	var i=0;
 	//텍스트 파일 정보 불러오기
-	//디게 더럽죠? 좀 더 공부하겠습니다...
 	while(file_text_eof(saveFile)==false){
 		var recordLine=[];
 		for(var j=0;j<7;j++){

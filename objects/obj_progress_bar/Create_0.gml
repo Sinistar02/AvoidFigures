@@ -1,0 +1,20 @@
+progressList=obj_achievement_manager.progress
+progressPercent=0
+for(i=0;i<20;i++){
+	progressPercent+=progressList[i]
+}
+progressPercent/=20;
+if(progressPercent>=1){
+	obj_achievement_manager.UnlockFinalAchi();
+}
+color=c_lime
+//최종 업적 특전 1
+finalProgress=0
+for(i=20;i<25;i++){
+	finalProgress+=progressList[i]
+}
+if(finalProgress>2){
+	rainbow=0
+	alarm[0]=1
+}
+alarm[1]=1
