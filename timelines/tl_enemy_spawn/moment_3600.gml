@@ -1,3 +1,2 @@
-///@description 60초 후: 창, 왼쪽 대포 생성
-instance_create_depth(0,0,0,obj_ss_spawner,{difficulty:0})
-instance_create_depth(0,0,0,obj_lc_spawner,{difficulty:0})
+///@description 60초 후: 탱탱볼 3개 생성
+instance_create_depth(272,256,0,obj_bc_spawner,{amount:3})

@@ -12,7 +12,7 @@ if(global.language==1){
 	achievementFile = file_text_open_read("assets/achievement/achievements eng.txt")
 	achiTitleFile = file_text_open_read("assets/achievement/achievements title eng.txt")
 }
-progressFile = file_text_open_read("achievement status.txt")
+progressFile = file_text_open_read("new achievement status.txt")
 //업적 설명과 진행도 불러오기
 readline=0
 while(file_text_eof(achievementFile)==false){
@@ -31,7 +31,7 @@ file_text_close(progressFile)
 function GetAchievement(n){
 	obj_achievement_notif.alarm[0]=1
 	progress[n]=1
-	progressFile = file_text_open_write("achievement status.txt")
+	progressFile = file_text_open_write("new achievement status.txt")
 	for(i=0;i<readline;i++){
 		file_text_write_real(progressFile,progress[i])
 		file_text_writeln(progressFile)

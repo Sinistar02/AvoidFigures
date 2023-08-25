@@ -9,9 +9,9 @@ grazeCombo=0
 makeSound=true
 if(global.gamemode=="normal" or global.gamemode=="practice"){
 	grazeBonus=84
-	alarm[0]=6600 //84(초기)->180(110초 후)->248(200초 후)
+	alarm[0]=4200 //84(초기)->180(70초 후)->248(180초 후)
 } else if(global.gamemode=="hard"){
-	grazeBonus=248
+	grazeBonus=200
 } else if(global.gamemode=="30s normal" or global.gamemode=="30s hard"){
 	grazeBonus=60
 }

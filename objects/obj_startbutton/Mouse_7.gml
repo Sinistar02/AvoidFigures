@@ -1,7 +1,5 @@
-/*
 if(keyboard_check(vk_f3)==true)
 	global.debug=true
-*/
 
 if(room==title_screen or room==how_to_play){
 	if(!instance_exists(obj_copyright_screen) and !instance_exists(obj_credit)) {

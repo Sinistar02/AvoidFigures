@@ -9,12 +9,11 @@ if(progressPercent>=1){
 }
 color=c_lime
 //최종 업적 특전 1
-finalProgress=0
-for(i=20;i<25;i++){
-	finalProgress+=progressList[i]
-}
+finalProgress=getFinalProgress();
 if(finalProgress>2){
 	rainbow=0
 	alarm[0]=1
 }
-alarm[1]=1
+theVkey=""
+if(finalProgress==6)
+	alarm[1]=1

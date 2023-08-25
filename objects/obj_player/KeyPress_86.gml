@@ -2,12 +2,12 @@
 if(global.debug==true){
 	audio_play_sound(sd_item,0,false)
 	if(global.gamemode=="normal" or global.gamemode=="hard")
-		hp=99
-	obj_timer.timer=99990
+		obj_timer.timer=99990
+	hp=99
 }
-if(finalProgress==5){
+if(getFinalProgress()==6){
 	audio_play_sound(sd_item,0,false)
-	if(global.gamemode=="normal" or global.gamemode=="hard"){
+	if((global.gamemode=="normal" or global.gamemode=="hard") and hp>0){
 		hp++;
 		obj_timer.timer+=3600
 	}
