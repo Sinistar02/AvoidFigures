@@ -46,3 +46,4 @@ function gameoverMotion() {
 		gameover=true
 	}
 }
+alarm[11]=1

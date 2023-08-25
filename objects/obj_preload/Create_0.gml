@@ -59,11 +59,11 @@ if(ini_read_real("option","fullscreen",0)==1){
 	alarm[0]=12
 } else {
 	window_set_fullscreen(false)
-	if(ini_read_real("option","size",1)==1)
-		global.windowSize=[1532,1024]
-	else
-		global.windowSize=[766,512]
 	window_set_size(global.windowSize[0],global.windowSize[1])
 	alarm[0]=3
 }
+if(ini_read_real("option","size",1)==1)
+	global.windowSize=[1532,1024]
+else
+	global.windowSize=[766,512]
 ini_close()
