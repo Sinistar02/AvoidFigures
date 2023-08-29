@@ -11,8 +11,11 @@ function getTime(m){
 		return time / 60
 	else if(m=="second")
 		return time % 60
+	else if(m=="msecond")
+		return time*100 - floor(time)*100
 }
 
+//게임오버 시 최종 생존기록 표시
 if(room==game_over or room==game_30s_survived){
 	switch(x){
 		case 656:
@@ -28,4 +31,13 @@ if(room==game_over or room==game_30s_survived){
 			image_index=digitMap(1,getTime("second"))
 			break;
 	}
+}
+
+timerMode=false
+if(room==game_room){
+	if(global.gamemode!="normal" and global.gamemode!="hard")
+		instance_destroy(self)
+	depth=30
+	image_alpha=0.2
+	timerMode=true
 }

@@ -1,2 +1,2 @@
-image_index=0
+event_inherited();
 instance_destroy(obj_lang_selection)

@@ -26,11 +26,11 @@ with(obj_achievement_manager){
 			GetAchievement(12);
 		else if(global.score>=1700 and progress[13]==0)
 			GetAchievement(13);
-		else if(global.survivedTime>=18000 and progress[18]==0)
+		else if(global.survivedTime>=14400 and progress[18]==0)
 			GetAchievement(18);
 		else if(global.score>=5000 and progress[21]==0)
 			GetAchievement(21);
-		else if(global.survivedTime>=60000 and progress[22]==0)
+		else if(global.survivedTime>=28800 and progress[22]==0)
 			GetAchievement(22);
 	} else if(global.gamemode=="30s normal"){
 		if(global.survivedTime>=1800 and progress[2]==0)

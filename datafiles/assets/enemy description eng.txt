@@ -7,7 +7,7 @@ Going right, spinning a lot. It's hard to avoid even if I notice its existance. 
 Mine Ball
 A number of this spread all over the field, and explode after some time. It's not that hard to avoid, but its explosion remains long. It gives many points.
 Spear Square
-Charge into the upper wall from the bottom really fast. It's impossible to avoid after its charging. Keep an eye on the bottom of the field. Its cooldown decreases after a while.
+Charge into the upper wall from the bottom really fast. It's impossible to avoid after its charging. Keep an eye on the bottom of the field. And it makes an odd sound when it appears or attacks, depending on the difficulty. Its cooldown decreases after a while.
 Cannon Square
 Launches a dangerous Cannonball from both sides. Cannonball gives me many points. Since Cannonball flies straight, it's fairly easy to avoid.
 Laser Square

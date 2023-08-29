@@ -13,7 +13,7 @@ file_text_write_real(saveFile,global.score)
 file_text_writeln(saveFile)
 file_text_write_real(saveFile,global.survivedTime)
 file_text_writeln(saveFile)
-file_text_write_string(saveFile,"4.02")
+file_text_write_string(saveFile,"4.04")
 file_text_writeln(saveFile)
 file_text_close(saveFile)
 obj_save_record_button.canSave=false

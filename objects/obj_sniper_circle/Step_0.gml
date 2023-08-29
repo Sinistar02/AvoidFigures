@@ -14,7 +14,7 @@ if(phaze==0) {
 if(x>515 or x<-16 or y>528)
 	instance_destroy(self)
 	
-if(obj_player.hp==0){
+if(obj_player.hp==0 and phaze<2){
 	alarm_set(0,-1)
 	alarm_set(1,-1)
 	alarm_set(2,-1)
@@ -23,4 +23,6 @@ if(obj_player.hp==0){
 	alarm_set(11,-1)
 	instance_destroy(obj_aim)
 	instance_destroy(obj_aimline)
+	alarm[4]=1
+	phaze=3
 }
