@@ -16,11 +16,11 @@ Get 15 point bonuses in a row in Normal/Hard mode
 Get 1000 score in 30 seconds mode
 Get 1500 score in 30s hard mode
 Survive for 6 minutes in Normal mode
-Survive for 5 minutes in Hard mode
+Survive for 4 minutes in Hard mode
 Dies 300 times 
 Get 9000 score in Normal mode
 Get 5000 score in Hard mode
-Survive for 12(10) minutes in Normal(Hard) mode
+Survive for 12(8) minutes in Normal(Hard) mode
 Survive for 4 minutes in Normal mode, no miss
 Get 2000 score in 30 seconds mode 
 Get 2700 score in 30s hard mode 
