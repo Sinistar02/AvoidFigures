@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fullscreen_toggle",
+  "name": "obj_game_display",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":122,"eventType":9,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":121,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "mechanic",
-    "path": "folders/Objects/mechanic.yy",
+    "name": "mobile",
+    "path": "folders/Objects/GUI/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fullscreen_toggle",
-    "path": "sprites/spr_fullscreen_toggle/spr_fullscreen_toggle.yy",
+    "name": "spr_mode_desc",
+    "path": "sprites/spr_mode_desc/spr_mode_desc.yy",
   },
   "spriteMaskId": null,
   "visible": true,

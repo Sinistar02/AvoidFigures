@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "button",
-    "path": "folders/Objects/button.yy",
+    "name": "mobile",
+    "path": "folders/Objects/button/mobile.yy",
   },
   "parentObjectId": {
     "name": "obj_small_button_parent",

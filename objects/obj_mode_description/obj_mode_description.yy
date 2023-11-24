@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "screen",
-    "path": "folders/Objects/GUI/screen.yy",
+    "name": "mobile",
+    "path": "folders/Objects/GUI/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

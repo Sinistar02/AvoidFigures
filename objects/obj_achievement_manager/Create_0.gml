@@ -6,11 +6,11 @@ achiTitle=[]
 progress=[]
 //파일 열기
 if(global.language==1){
-	achievementFile = file_text_open_read("assets/achievement/achievements kor.txt")
-	achiTitleFile = file_text_open_read("assets/achievement/achievements title kor.txt")
+	achievementFile = file_text_open_read("strings/achievement/achievements kor.txt")
+	achiTitleFile = file_text_open_read("strings/achievement/achievements title kor.txt")
 } else if(global.language==2){
-	achievementFile = file_text_open_read("assets/achievement/achievements eng.txt")
-	achiTitleFile = file_text_open_read("assets/achievement/achievements title eng.txt")
+	achievementFile = file_text_open_read("strings/achievement/achievements eng.txt")
+	achiTitleFile = file_text_open_read("strings/achievement/achievements title eng.txt")
 }
 progressFile = file_text_open_read("new achievement status.txt")
 //업적 설명과 진행도 불러오기

@@ -1,2 +1,2 @@
-depth=2
+depth=4
 drawWidth=0
