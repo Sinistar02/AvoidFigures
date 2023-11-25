@@ -1,10 +1,6 @@
-wdir = sign(keyboard_check(ord("D"))-keyboard_check(ord("A")))//수평방향(WASD)
-hdir = sign(keyboard_check(ord("S"))-keyboard_check(ord("W")))//수직방향(WASD)
-if(wdir==0)
-	wdir = sign(keyboard_check(vk_right)-keyboard_check(vk_left))//수평방향(방향키)
-if(hdir==0)
-	hdir = sign(keyboard_check(vk_down)-keyboard_check(vk_up))//수직방향(방향키)
-wspd = 6/(1+keyboard_check(vk_shift)) //저속 3<->고속 6
+wdir = obj_joystick.wdir //수평방향
+hdir = obj_joystick.hdir //수직방향
+wspd = 6/(1+obj_graze_button.isPressed) //저속 3<->고속 6
 hspd = wspd
 if(wdir!=0 and hdir!=0){//대각이동 속력 조정
 	wspd*=0.75
@@ -60,9 +56,9 @@ if(stunFrame>0){
 }
 
 //벽 판정
-if(place_meeting(x+7*wdir,y,obj_hwall))
+if(place_meeting(x+7*wdir,y,obj_vwall))
 	wspd=0
-if(place_meeting(x,y+7*hdir,obj_vwall))
+if(place_meeting(x,y+7*hdir,obj_hwall))
 	hspd=0
 
 //게임오버

@@ -1,7 +1,8 @@
 //난이도별 타임라인 작동, 체력 결정
 if(global.gamemode=="normal"){
 	timeline_index=tl_enemy_spawn
-	hp=3
+	//hp=3
+	hp=9999
 } else if(global.gamemode=="hard"){
 	timeline_index=tl_enemy_spawn_hard
 	hp=3
@@ -27,6 +28,10 @@ motionImage=0
 blinkFrame=irandom_range(110,180)
 blinked=false//blinked가 true이면 눈을 감음
 nomiss=true//한 번도 맞지 않았는지의 여부
+wdir=0
+hdir=0
+wspd=0
+hspd=0
 global.score=0
 //이펙트
 /*

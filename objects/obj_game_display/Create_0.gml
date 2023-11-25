@@ -6,9 +6,13 @@ function ExtendDigit(n,d){
 function getTime(m,t){
 	t/=60;
 	if(m=="minute")
-		return t / 60
-	else if(m=="second")
-		return t % 60
+		return floor(t / 60)
+	else if(m=="second") {
+		if(t<=10)
+			return t % 60
+		else
+			return floor(t % 60)
+	}
 }
 
 function digitMap(n,r) {
@@ -17,3 +21,5 @@ function digitMap(n,r) {
 		r/=10
 	return r % 10;
 }
+
+timerColor=c_white;

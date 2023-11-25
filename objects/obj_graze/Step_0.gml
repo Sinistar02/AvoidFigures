@@ -1,7 +1,7 @@
 x=obj_player.x
 y=obj_player.y
 
-if(keyboard_check(vk_shift) and obj_player.hp>0){//저속 모드
+if(obj_graze_button.isPressed==true and obj_player.hp>0){//저속 모드
 	activateGraze()
 } else {//고속 모드
 	if(grazePlusTimer>0){

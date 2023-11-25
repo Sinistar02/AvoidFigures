@@ -1,1 +1,0 @@
-image_index=global.language-1
