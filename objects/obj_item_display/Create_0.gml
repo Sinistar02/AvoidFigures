@@ -1,5 +1,9 @@
 image_index=displayID
 image_xscale=2
 image_yscale=2
+image_alpha=0.5
+depth=99
+x=270
+y=442
 animIter=0
 alarm[0]=90

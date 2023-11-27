@@ -19,7 +19,7 @@ if(global.language==1) {
 			break;
 	}
 } else if(global.language==2) {
-	draw_text(585,92,"Select Mode")
+	draw_text_transformed(270,90,"SELECT MODE",2,2,0)
 }
 
 //모드 이름

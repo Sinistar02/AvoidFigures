@@ -14,10 +14,7 @@
     "name": "mobile",
     "path": "folders/Objects/button/mobile.yy",
   },
-  "parentObjectId": {
-    "name": "obj_small_button_parent",
-    "path": "objects/obj_small_button_parent/obj_small_button_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

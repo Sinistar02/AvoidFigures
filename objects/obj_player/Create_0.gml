@@ -1,8 +1,8 @@
 //난이도별 타임라인 작동, 체력 결정
 if(global.gamemode=="normal"){
 	timeline_index=tl_enemy_spawn
-	//hp=3
-	hp=9999
+	hp=3
+	//hp=9999
 } else if(global.gamemode=="hard"){
 	timeline_index=tl_enemy_spawn_hard
 	hp=3

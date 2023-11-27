@@ -1,4 +1,4 @@
-instance_create_depth(272,-16,3,obj_sniper_circle)
+instance_create_depth(272,152,3,obj_sniper_circle)
 if(global.gamemode=="practice")
 	alarm[0]=1200//20초
 else if(global.gamemode=="normal" or global.gamemode=="hard")

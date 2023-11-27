@@ -1,7 +1,6 @@
 animIter=0
 animY=0
-canDraw=false
-alarm[2]=90
+alarm[0]=40
 
 if(global.gamemode="30s normal"){//30초 모드에서
 	if(global.score>=3000)//3000점 이상 획득
@@ -39,6 +38,8 @@ if(global.gamemode="30s normal"){//30초 모드에서
 	else
 		textToShow=irandom_range(3,5)
 }
+
+//대사 모음집
 if(global.language==1) {
 	if(global.gamemode=="normal"){
 		balloonColor=c_white

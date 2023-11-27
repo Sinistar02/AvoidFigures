@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "pc",
+    "path": "folders/Objects/GUI/pc.yy",
   },
   "parentObjectId": null,
   "persistent": false,

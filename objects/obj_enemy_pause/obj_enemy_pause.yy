@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "mechanic",
-    "path": "folders/Objects/mechanic.yy",
+    "name": "mobile",
+    "path": "folders/Objects/mechanic/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

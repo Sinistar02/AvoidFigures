@@ -11,7 +11,7 @@ if(phaze==0) {
 	graze(10);
 }
 
-if(x>515 or x<-16 or y>528)
+if(x>515 or x<-16 or y>742)
 	instance_destroy(self)
 	
 if(obj_player.hp==0 and phaze<2){

@@ -6,10 +6,10 @@ if(irandom(3)==1){
 	else
 		y-=32*irandom_range(1,2)
 	
-	if(y<32)
-		y=32
-	else if(y>448)
-		y=448
+	if(y<192)
+		y=192
+	else if(y>672)
+		y=672
 }
 
 if(speedMultiplier==1)

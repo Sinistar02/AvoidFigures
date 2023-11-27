@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "pc",
-    "path": "folders/Objects/button/pc.yy",
+    "name": "mobile",
+    "path": "folders/Objects/button/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

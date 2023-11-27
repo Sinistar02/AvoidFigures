@@ -1,5 +1,5 @@
-var spawnX=random_range(64,479)
-var spawnY=random_range(64,447)
+var spawnX=random_range(64,480)
+var spawnY=irandom_range(224,670)
 instance_create_depth(spawnX,spawnY,-1,obj_slow_crystal)
 if(global.gamemode=="30s normal" or global.gamemode=="30s hard")
 	alarm[0]=irandom_range(480,780)//8~13초

@@ -1,5 +1,5 @@
 /// @description 후퇴
-if(y<496){
+if(y<716){
 	y+=4*speedMultiplier
 	alarm[1]=1
 } else {

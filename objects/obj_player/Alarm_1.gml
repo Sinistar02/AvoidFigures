@@ -7,4 +7,4 @@ file = file_text_open_write("play count.txt")
 file_text_write_real(file,global.playCount)
 file_text_close(file)
 
-room_goto(game_over)
+room_goto(mgame_over)

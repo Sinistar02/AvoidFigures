@@ -1,10 +1,14 @@
 audio_play_sound(sd_bounce,1,false)
-var yspd = -sin(degtorad(direction))*speed
-while(!place_meeting(x,y+yspd,obj_hwall)){
-	if(y<418){
-		y++;
+var xspd = cos(degtorad(direction))*speed
+while(!place_meeting(x+xspd,y,obj_hwall)){
+	if(x<room_width/2){
+		x++;
 	} else {
-		y--;
+		x--;
 	}
 }
-direction=360-direction;
+if(direction<=180) {
+	direction=180-direction;
+} else {
+	direction=540-direction;
+}

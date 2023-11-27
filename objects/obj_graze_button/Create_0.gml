@@ -1,4 +1,3 @@
 isPressed=false
-gesture_drag_distance(0)
-gesture_drag_time(0.001)
+touchNum=-1
 image_index=0

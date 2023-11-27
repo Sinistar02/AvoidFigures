@@ -3,12 +3,12 @@ function ExtendDigit(n,d){
 	return string_delete(digits,1,1);
 }
 
-function getTime(m,t){
+function getTime(m,t,fr=1){
 	t/=60;
 	if(m=="minute")
 		return floor(t / 60)
 	else if(m=="second") {
-		if(t<=10)
+		if(fr==0 or fr==1 and t<=10)
 			return t % 60
 		else
 			return floor(t % 60)

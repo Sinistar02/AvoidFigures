@@ -1,7 +1,7 @@
 image_xscale=3.6
 image_yscale=3.6
 image_alpha=0
-depth=8
+depth=30
 graze=0
 grazing=false
 grazePlusTimer=0

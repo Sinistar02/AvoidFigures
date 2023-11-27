@@ -1,11 +1,10 @@
 wdir = obj_joystick.wdir //수평방향
 hdir = obj_joystick.hdir //수직방향
-wspd = 6/(1+obj_graze_button.isPressed) //저속 3<->고속 6
+if(obj_graze_button.isPressed)
+	wspd=2
+else
+	wspd=5
 hspd = wspd
-if(wdir!=0 and hdir!=0){//대각이동 속력 조정
-	wspd*=0.75
-	hspd*=0.75
-}
 
 //특정 상황에서 속도 감소
 if(place_meeting(x,y,obj_slcr_range)){
@@ -14,9 +13,9 @@ if(place_meeting(x,y,obj_slcr_range)){
 }
 
 //모션
-if(wdir==1 or hdir==1)
+if(0<wdir or 0<hdir)
 	motionImage=1
-else if(wdir==-1 or hdir==-1)
+else if(wdir<0 or hdir<0)
 	motionImage=2
 else
 	motionImage=0
@@ -56,9 +55,9 @@ if(stunFrame>0){
 }
 
 //벽 판정
-if(place_meeting(x+7*wdir,y,obj_vwall))
+if(place_meeting(x+12*wdir,y,obj_hwall))
 	wspd=0
-if(place_meeting(x,y+7*hdir,obj_hwall))
+if(place_meeting(x,y+10*hdir,obj_vwall))
 	hspd=0
 
 //게임오버

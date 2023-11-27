@@ -1,4 +1,4 @@
-instance_create_depth(-32,488,4,obj_spear_square_base,{difficulty:difficulty})
+instance_create_depth(-32,716,4,obj_spear_square_base,{difficulty:difficulty})
 if(global.gamemode=="30s normal" or global.gamemode=="30s hard"){
 	alarm[0]=900
 } else {
