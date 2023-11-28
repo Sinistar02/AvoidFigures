@@ -8,16 +8,14 @@ if(room==mgame_mode){
 		else
 			selectMode--;
 	}
-}
-/*
-if(room==record_room){
+} else if(room==mrecord_room){
 	with(obj_show_record){
 		//기록 페이지 넘기기
-		if(other.y>200 and currentPage > 0){
+		if(other.y>900 and currentPage > 0){
 			audio_play_sound(sd_button,0,false)
 			currentPage--;
 		//모드 페이지 넘기기
-		} else if(other.y<=200) {
+		} else if(other.y<=900) {
 			audio_play_sound(sd_button,0,false)
 			if(mode==0)
 				mode=3
@@ -26,7 +24,8 @@ if(room==record_room){
 			alarm[0]=1
 		}
 	}
-} else if(room==practice_room){
+}
+/*else if(room==practice_room){
 	audio_play_sound(sd_button,0,false)
 	with(obj_practice_manager){
 		if(currentPage==0)

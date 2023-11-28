@@ -1,4 +1,5 @@
 phase++
+audio_play_sound(sd_buzz,10,false)
 if(phase==3) {
 	instance_create_depth(0,0,0,obj_balloon)
 	instance_create_depth(78,895,3,obj_retry,{image_xscale:2,image_yscale:2})
@@ -8,4 +9,3 @@ if(phase==3) {
 } else {
 	alarm[0]=25
 }
-show_debug_message(phase)

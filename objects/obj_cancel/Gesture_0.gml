@@ -1,4 +1,4 @@
-if(room==record_room or room==mgame_mode){
+if(room==mrecord_room or room==mgame_mode){
 	room_goto(mtitle)
 	audio_play_sound(sd_button,0,false)
 } else {

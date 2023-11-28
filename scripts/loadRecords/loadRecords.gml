@@ -16,14 +16,14 @@ function loadRecords(gm){
 		loadedSaveFile[i]=recordLine;
 		i++;
 	}
-	//한 페이지 당 16줄
-	obj_show_record.page=floor(i/17)
-	//기록이 16의 배수가 아니라면 나머지 빈 공간을 0으로 채운다
+	//한 페이지 당 17줄
+	obj_show_record.page=floor(i/18)
+	//기록이 17의 배수가 아니라면 나머지 빈 공간을 0으로 채운다
 	if(i==0){
 		loadedSaveFile[i]=[0,0,0,0,0,0,0,"EMPTY"];
 		i++;
 	}
-	while(i mod 16 > 0){
+	while(i mod 17 > 0){
 		loadedSaveFile[i]=[0,0,0,0,0,0,0,"EMPTY"];
 		i++;
 	}

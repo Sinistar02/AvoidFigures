@@ -4,6 +4,7 @@ if(room==mtitle){
 		room_goto(mgame_mode)
 	}
 } else if(room==mgame_mode){
+	room_set_persistent(mgame_room,true)
 	switch(obj_mode_description.selectMode) {
 		case 0:
 			global.gamemode="normal"

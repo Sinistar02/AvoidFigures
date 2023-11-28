@@ -3,13 +3,13 @@
   "resourceVersion": "1.0",
   "name": "obj_show_record_button",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "pc",
-    "path": "folders/Objects/button/pc.yy",
+    "name": "mobile",
+    "path": "folders/Objects/button/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,
