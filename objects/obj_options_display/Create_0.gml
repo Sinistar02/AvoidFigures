@@ -1,0 +1,5 @@
+ini_open("option.ini")
+sfx = ini_read_real("option","sound",2)
+bgm = ini_read_real("option","music",2)
+size = ini_read_real("option","screenSize",0)
+lang = ini_read_real("option","language",1)

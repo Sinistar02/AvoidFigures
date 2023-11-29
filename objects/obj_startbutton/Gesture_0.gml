@@ -5,6 +5,7 @@ if(room==mtitle){
 	}
 } else if(room==mgame_mode){
 	room_set_persistent(mgame_room,true)
+	global.playCount++;
 	switch(obj_mode_description.selectMode) {
 		case 0:
 			global.gamemode="normal"
@@ -24,32 +25,10 @@ if(room==mtitle){
 			break;
 		case 4:
 			global.gamemode="practice"
+			room_goto(mpractice_room)
 			break;
 	}
-}
-	/*
-	if(y<=230){
-		if(x<=249){
-			global.gamemode="normal"
-		} else if(x<=524){
-			global.gamemode="hard"
-		} else {
-			global.gamemode="30s normal"
-		}
-		global.playCount++;
-		room_goto(game_room)
-	} else {
-		if(x<=249){
-			global.gamemode="30s hard"
-			global.playCount++;
-			room_goto(game_room)
-		} else if(x<=524){
-			global.gamemode="practice"
-			room_goto(practice_room)
-		}
-	}
-} else if(room==practice_room) {
+} else if(room==mpractice_room) {
 	global.playCount++;
-	room_goto(game_room_for_practice)
+	room_goto(mgame_practice)
 }
-*/

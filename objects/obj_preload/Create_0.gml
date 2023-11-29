@@ -55,10 +55,6 @@ if(!ini_section_exists("option")){
 	ini_write_real("option","screenSize",0)
 	ini_write_real("option","language",1)
 }
-if(ini_key_exists("option","fullscreen")) {
-	ini_key_delete("option","fullscreen")
-	ini_write_real("option","screenSize",0)
-}
 
 if(!ini_key_exists("option","language"))
 	ini_write_real("option","language",1)

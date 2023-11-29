@@ -1,0 +1,1 @@
+obj_item_spawner.itemSpawn=0;

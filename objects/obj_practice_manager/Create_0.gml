@@ -1,4 +1,4 @@
-if(room==practice_room) {
+if(room==mpractice_room) {
 	//튕기는공,스네이크네모,회전구,지뢰,창,대포,레이저
 	global.enemySelectList=[true,false,false,false,false,false,false,false,false,false]
 	maxPage=2
@@ -28,6 +28,4 @@ if(room==practice_room) {
 		instance_create_depth(0,0,0,obj_cc_spawner,{difficulty:0})
 	if(global.enemySelectList[9]==true)
 		instance_create_depth(0,0,0,obj_snci_spawner)
-	exitDesc=""
-	alarm[0]=1
 }

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "pc",
-    "path": "folders/Objects/GUI/pc.yy",
+    "name": "mobile",
+    "path": "folders/Objects/GUI/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

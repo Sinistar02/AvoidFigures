@@ -28,4 +28,7 @@ if(room==mgame_room){
 		t = global.survivedTime
 		draw_text(280,136,$"{ExtendDigit(getTime("minute",t),2)}:{ExtendDigit(getTime("second",t,0),2)}")
 	}
+} else if(room==mgame_practice){
+	setDraw(fa_middle,fa_left,galmooriBig)
+	draw_text_transformed(16,50,ExtendDigit(global.score,8),1,1,0);
 }

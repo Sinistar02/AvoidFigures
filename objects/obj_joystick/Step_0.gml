@@ -16,7 +16,7 @@ if(isCon==false) {
 		}
 	}
 } else {
-	if(device_mouse_check_button_released(touchNum,mb_left)){
+	if(!device_mouse_check_button(touchNum,mb_left)){
 		touchNum=-1
 		isCon=false
 	}

@@ -22,8 +22,14 @@ if(room==mgame_mode){
 			alarm[0]=1
 		}
 	}
-}
-/*else if(room==practice_room){
+} else if(room==machievement_room){
+	with(obj_achievement_manager){
+		if(currentPage < maxPage){
+			audio_play_sound(sd_button,0,false)
+			currentPage++;
+		}
+	}
+} else if(room==mpractice_room){
 	audio_play_sound(sd_button,0,false)
 	with(obj_practice_manager){
 		if(currentPage==maxPage)
@@ -31,12 +37,4 @@ if(room==mgame_mode){
 		else
 			currentPage++;
 	}
-} else if(room==achievement_room){
-	with(obj_achievement_manager){
-		if(currentPage < maxPage){
-			audio_play_sound(sd_button,0,false)
-			currentPage++;
-		}
-	}
 }
-*/

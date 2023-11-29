@@ -2,7 +2,7 @@ display=[["게임 오버","총 점","생존 시간","생존 성공"],["GAME OVER
 phase=0;
 depth=1
 alarm[0]=60;
-gesture_drag_time(0.16)
+room_persistent=true
 
 function getTime(m,t,fr=1){
 	t/=60;

@@ -1,9 +1,9 @@
-if(x<235)
+if(x==0)
 	assignedID=0
-else if(x<385)
+else if(x==138)
 	assignedID=1
-else if(x<525)
+else if(x==276)
 	assignedID=2
 else
 	assignedID=3
-selectedEnemyID=assignedID+obj_practice_manager.currentPage*4
+alarm[0]=1

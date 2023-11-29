@@ -1,4 +1,4 @@
-maxPage=1
+maxPage=3
 currentPage=0
 color=c_lime
 achievements=[]
@@ -21,12 +21,14 @@ while(file_text_eof(achievementFile)==false){
 	achiTitle[readline] = file_text_read_string(achiTitleFile)
 	file_text_readln(achiTitleFile)
 	progress[readline] = file_text_read_real(progressFile)
+	//progress[readline]=1
 	file_text_readln(progressFile)
 	readline++;
 }
 file_text_close(achiTitleFile)
 file_text_close(achievementFile)
 file_text_close(progressFile)
+
 //업적 달성
 function GetAchievement(n){
 	obj_achievement_notif.alarm[0]=1
@@ -40,5 +42,5 @@ function GetAchievement(n){
 }
 //업적 페이지 3 해금
 function UnlockFinalAchi() {
-	maxPage=2
+	maxPage=5
 }

@@ -1,11 +1,17 @@
-if(room==practice_room){
-	draw_sprite_ext(spr_prac_title,global.language-1,138,16,0.8,0.8,0,c_white,1)
-	draw_set_font(galmooriBig)
-	draw_text_ext(464,252,description[0],45,280)
-	draw_set_font(galmoori)
-	draw_text_ext(40,264,description[1],26,384)
+if(room==mpractice_room){
+	setDraw(fa_middle,fa_center,galmooriBig)
+	if(global.language==1)
+		draw_text(300,772,"연습 모드")
+	else if(global.language==2)
+		draw_text(300,772,"PRACTICE MODE")
+	draw_text_transformed(270,90,description[0],2,2,0)
+	setDraw(fa_top,fa_center,galmoori)
+	draw_text_ext(270,185,description[1],25,500)
+	setDraw(fa_middle,fa_center,galmoori)
+	if(global.language==1)
+		draw_text_transformed(270,896,$"{currentPage+1} 페이지",2,2,0)
+	else if(global.language==2)
+		draw_text_transformed(270,896,$"Page {currentPage+1}",2,2,0)
 } else {
-	draw_set_font(galmoori)
-	draw_text_ext(552,192,exitDesc,22,180)
 	global.practiceTimer++;
 }

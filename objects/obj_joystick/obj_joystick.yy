@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "mobile",
-    "path": "folders/Objects/GUI/mobile.yy",
+    "path": "folders/Objects/mechanic/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

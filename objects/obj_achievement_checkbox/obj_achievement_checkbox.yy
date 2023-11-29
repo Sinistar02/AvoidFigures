@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "particle",
-    "path": "folders/Objects/particle.yy",
+    "name": "mobile",
+    "path": "folders/Objects/GUI/mobile.yy",
   },
   "parentObjectId": null,
   "persistent": false,

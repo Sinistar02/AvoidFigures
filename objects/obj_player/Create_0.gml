@@ -34,12 +34,11 @@ wspd=0
 hspd=0
 global.score=0
 //이펙트
-/*
 if(global.debug==true)
 	alarm[3]=1
 else
 	alarm[2]=2
-*/
+alarm[5]=1
 
 //게임오버 되었을 시 취할 행동
 function gameoverMotion() {
