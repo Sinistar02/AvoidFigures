@@ -14,7 +14,7 @@ else {
 	graze(4)
 }
 
-if(phase==1 and x>527){
+if(phase==1 and (x>560 or x<-20 or y>700)){
 	alarm[2]=1
 	phase=2
 }

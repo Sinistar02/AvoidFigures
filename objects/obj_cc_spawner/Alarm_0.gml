@@ -1,4 +1,4 @@
-instance_create_depth(irandom_range(48,496),-24,2,obj_chasing_circle,{difficulty:difficulty})
+instance_create_depth(irandom_range(48,496),78,2,obj_chasing_circle,{difficulty:difficulty})
 if(global.gamemode=="30s normal" or global.gamemode=="30s hard")
 	alarm[0]=900//15초
 else {

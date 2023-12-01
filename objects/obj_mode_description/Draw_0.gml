@@ -20,6 +20,23 @@ if(global.language==1) {
 	}
 } else if(global.language==2) {
 	draw_text_transformed(270,90,"SELECT MODE",2,2,0)
+	switch(selectMode) {
+		case 0:
+			modeName="Normal"
+			break;
+		case 1:
+			modeName="Hard"
+			break;
+		case 2:
+			modeName="30 Seconds"
+			break;
+		case 3:
+			modeName="30s Hard"
+			break;
+		case 4:
+			modeName="Practice"
+			break;
+	}
 }
 
 //모드 이름

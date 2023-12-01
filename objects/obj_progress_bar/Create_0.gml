@@ -19,5 +19,3 @@ if(finalProgress>2){
 theVkey=""
 if(finalProgress==6)
 	alarm[1]=1
-
-alarm[1]=1

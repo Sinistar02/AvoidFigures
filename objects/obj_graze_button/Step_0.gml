@@ -6,7 +6,7 @@ if(isPressed==false) {
 		if(device_mouse_check_button_pressed(i,mb_left) and position_meeting(touchX,touchY,self)){
 			touchNum=i
 			isPressed=true
-			image_index=1
+			image_index=1+2*(global.language-1)
 			break;
 		}
 	}
@@ -15,6 +15,6 @@ if(isPressed==false) {
 	if(device_mouse_check_button_released(touchNum,mb_left)){
 		touchNum=-1
 		isPressed=false
-		image_index=0
+		image_index=0+2*(global.language-1)
 	}
 }

@@ -9,7 +9,17 @@ tips=[
 "현재 이 게임의 후속작이 개발 중에 있습니다",
 "PC 버전과 모바일 버전의 차이점이 많이 있습니다.\n기회가 된다면 PC버전도 플레이 해 주세요!",
 "튕기는 공이 생성되는 지점에 장막을 펼치면 다량의 포인트를 얻을 수 있습니다",
-"게임을 끈 후에는 직접 한 번 더 게임을 꺼 주세요!\n스마트폰 맨 왼쪽 아래 버튼을 누르고 게임을 위로 올리면 됩니다"],[]]
+"게임을 끈 후에는 직접 한 번 더 게임을 꺼 주세요!\n스마트폰 맨 왼쪽 아래 버튼을 누르고 게임을 위로 올리면 됩니다"],
+["To get many bonuses, following bouncy balls is recommended",
+"Pause the game on a safe place; There is no countdown after resuming!",
+"There're some special words that only appear in specific conditions",
+"There're hidden achievements besides the green and yellow ones",
+"The color of the achievement indicates its difficulty",
+"Did you notice that there's no green enemy?",
+"Currently, a sequel of this game is working in progress",
+"There're many differences between PC version and Mobile version\nPlease play PC version also if you can!",
+"When you activate the bonus circle near the spawn of bouncy circle, you will get a lot of points",
+"This game is not made in Unity"]]
 exitGuide=""
 tipToShow=irandom(array_length(tips[global.language-1])-1)
 phase=0;

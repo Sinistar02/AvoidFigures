@@ -41,5 +41,6 @@ if(global.language==1) {
 } else if(global.language==2) {
 	setDraw(fa_middle,fa_center,galmooriBig)
 	draw_text(319,794,"RECORDS")
+	setDraw(fa_middle,fa_center,galmoori)
 	draw_text_transformed(270,1050,$"Page {currentPage+1}/{page+1}",2,2,0)
 }

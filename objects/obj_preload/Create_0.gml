@@ -1,7 +1,5 @@
 audio_group_load(BGM)
 audio_group_load(SFX)
-audio_group_set_gain(BGM,0.6,0)
-audio_group_set_gain(SFX,0.6,0)
 global.score=0
 global.debug=false
 global.gamemode="undefined"
@@ -56,8 +54,12 @@ if(!ini_section_exists("option")){
 	ini_write_real("option","language",1)
 }
 
-if(!ini_key_exists("option","language"))
-	ini_write_real("option","language",1)
 global.language=ini_read_real("option","language",1) //1:한국어, 2:English
+changeScreenSize(ini_read_real("option","screenSize",0))
+ini_open("option.ini")
+var bgm = ini_read_real("option","music",2)
+var sfx = ini_read_real("option","sound",2)
+audio_group_set_gain(BGM,0.3*bgm,0)
+audio_group_set_gain(SFX,0.3*sfx,0)
 
 alarm[0]=3

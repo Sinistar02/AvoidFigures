@@ -1,6 +1,6 @@
 /// @description 이동
 if(x<480){
-	x+=7
+	x+=5
 	alarm[1]=1
 } else {
 	obj_logo_1.image_alpha=1
