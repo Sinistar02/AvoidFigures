@@ -7,8 +7,6 @@ global.practiceTimer=0
 global.savefile=["norm records.txt","hard records.txt","30n records.txt","30h records.txt"]
 global.afterPause=0
 randomize()
-gesture_double_tap_time(0.35)
-gesture_double_tap_distance(0.5)
 date_set_timezone(timezone_local)
 //첫 실행 시 필요한 파일 생성
 for(var i=0;i<4;i++){
@@ -59,7 +57,7 @@ changeScreenSize(ini_read_real("option","screenSize",0))
 ini_open("option.ini")
 var bgm = ini_read_real("option","music",2)
 var sfx = ini_read_real("option","sound",2)
-audio_group_set_gain(BGM,0.3*bgm,0)
+audio_group_set_gain(BGM,0.5*bgm,0)
 audio_group_set_gain(SFX,0.3*sfx,0)
 
 alarm[0]=3

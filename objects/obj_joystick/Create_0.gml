@@ -14,4 +14,4 @@ touchNum=-1;
 isCon=false
 stickTouchX=160;
 stickTouchY=928;
-//alarm[0]=10;
+alarm[0]=10;

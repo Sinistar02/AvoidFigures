@@ -44,4 +44,4 @@ setDraw(fa_middle,fa_center,galmoori)
 draw_text_transformed(270,875,modeName,2,2,0)
 //모드 설명
 setDraw(fa_top,fa_center)
-draw_text_ext(270,170,modeDesc[selectMode+5*(global.language-1)],25,500)
+draw_text_ext_transformed(270,170,modeDesc[selectMode+5*(global.language-1)],25,320,1.6,1.6,0)

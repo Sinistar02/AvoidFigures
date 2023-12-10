@@ -206,6 +206,7 @@
     {"id":{"name":"sd_buzz","path":"sounds/sd_buzz/sd_buzz.yy",},},
     {"id":{"name":"sd_normal_1","path":"sounds/sd_normal_1/sd_normal_1.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
+    {"id":{"name":"obj_logo_4","path":"objects/obj_logo_4/obj_logo_4.yy",},},
     {"id":{"name":"sd_practice_selection","path":"sounds/sd_practice_selection/sd_practice_selection.yy",},},
     {"id":{"name":"obj_item_revival","path":"objects/obj_item_revival/obj_item_revival.yy",},},
     {"id":{"name":"obj_practice_manager","path":"objects/obj_practice_manager/obj_practice_manager.yy",},},

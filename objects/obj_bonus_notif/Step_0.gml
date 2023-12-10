@@ -1,2 +1,2 @@
 x=obj_player.x
-y=obj_player.y-34
+y=obj_player.y-46

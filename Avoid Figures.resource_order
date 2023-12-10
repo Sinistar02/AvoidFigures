@@ -161,6 +161,7 @@
     {"name":"sd_buzz","order":14,"path":"sounds/sd_buzz/sd_buzz.yy",},
     {"name":"sd_normal_1","order":1,"path":"sounds/sd_normal_1/sd_normal_1.yy",},
     {"name":"obj_enemy_parent","order":9,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_logo_4","order":7,"path":"objects/obj_logo_4/obj_logo_4.yy",},
     {"name":"sd_practice_selection","order":7,"path":"sounds/sd_practice_selection/sd_practice_selection.yy",},
     {"name":"obj_item_revival","order":5,"path":"objects/obj_item_revival/obj_item_revival.yy",},
     {"name":"obj_practice_manager","order":15,"path":"objects/obj_practice_manager/obj_practice_manager.yy",},

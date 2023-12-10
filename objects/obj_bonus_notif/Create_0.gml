@@ -1,3 +1,4 @@
+image_xscale=2;
 depth=-5
 animIter=0
 image_yscale=0
