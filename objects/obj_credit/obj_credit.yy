@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DO NOT ERASE",
+    "path": "folders/Objects/DO NOT ERASE.yy",
   },
   "parentObjectId": null,
   "persistent": false,
