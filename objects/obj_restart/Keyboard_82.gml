@@ -5,6 +5,7 @@ if(restart==48 and room==game_room){
 	if(global.survivedTime>=300){
 		global.playCount++;
 	}
+	room_persistent=false
 	room_restart()
 } else if(restart==48 and room==game_room_for_practice){
 	global.playCount++;

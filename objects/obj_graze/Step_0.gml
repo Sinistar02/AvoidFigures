@@ -27,11 +27,11 @@ if(graze<0){
 if(graze>=grazeBonus){
 	if(global.gamemode=="normal"){
 		grazeCombo++;
-		obj_timer.timer+=900//15초 증가
+		obj_timer.timer+=600//10초 증가
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:0,bonusColor:"green"})
 	} else if(global.gamemode=="hard"){
 		grazeCombo++;
-		obj_timer.timer+=600//10초 증가
+		obj_timer.timer+=480//8초 증가
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:0,bonusColor:"green"})
 	} else if(global.gamemode=="30s normal" or global.gamemode=="30s hard" or global.gamemode=="practice"){
 		instance_create_depth(x,y,0,obj_bonus_notif,{mode:2,bonusColor:"green"})

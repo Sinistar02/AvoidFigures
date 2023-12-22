@@ -100,3 +100,6 @@ if(hp<=0){
 x+=wdir*wspd
 y+=hdir*hspd
 image_index=motionImage
+
+if(keyboard_check_pressed(vk_f2))
+	global.noSprinkle=true

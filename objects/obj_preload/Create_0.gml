@@ -7,6 +7,9 @@ global.debug=false
 global.gamemode="undefined"
 global.practiceTimer=0
 global.savefile=["norm records.txt","hard records.txt","30n records.txt","30h records.txt"]
+global.screenBuffer = buffer_create(766*512,buffer_grow,1)
+global.quit=false;
+global.noSprinkle=false;
 randomize()
 date_set_timezone(timezone_local)
 //첫 실행 시 필요한 파일 생성
